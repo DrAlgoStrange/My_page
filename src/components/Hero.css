@@ -1,0 +1,44 @@
+.hero-section {
+    position: relative;
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    background: none;
+    overflow: hidden;
+  }
+  
+  .hero-bg-image {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    width: 50vw;
+    background: url('myImage.jpg') no-repeat right center;
+    background-size: contain;
+    opacity: 0.15;        /* Lower for more transparency */
+    pointer-events: none; /* Allows interaction with content */
+    z-index: 0;
+  }
+  
+  .hero-content {
+    position: relative;
+    z-index: 1;
+    width: 60%;
+    padding-left: 3rem;
+  }
+  
+  .resume-btn {
+    display: inline-block;
+    margin-top: 2rem;
+    padding: 1rem 2.5rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #fff;
+    background: linear-gradient(90deg, #805ad5, #f6ad55);
+    border: none;
+    border-radius: 2rem;
+    box-shadow: 0 4px 24px rgba(128, 90, 213, 0.15);
+    text-decoration: none;
+    transition: transform 0.2s;
+    cursor: pointer;
+  }

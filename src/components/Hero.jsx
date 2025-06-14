@@ -26,6 +26,7 @@ import { motion } from 'framer-motion';
 
 // export default Hero;
 
+
 const HeroSection = styled.section`
   min-height: 90vh;
   display: flex;
@@ -110,7 +111,9 @@ export default function Hero() {
         >
           Software Developer specialized in building reliable web applications using <b>Python, Flask, Django</b>, with a passion for intuitive UI, automation, and premium user experience.
         </SubHeading>
+        
         <img src="myImage.jpg" alt="My Profile" style={{ width: "200px", borderRadius: "50%" }} />
+        
         <ButtonRow>
           <ResumeBtn 
             href="My_CV.pdf" 

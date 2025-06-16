@@ -31,7 +31,7 @@ A modern, responsive portfolio website built with React and Vite. This project s
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/React_portfolio.git
+git clone [https://github.com/suryahj/My_page.git]
 cd React_portfolio
 ```
 

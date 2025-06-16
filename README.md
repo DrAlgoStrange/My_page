@@ -15,12 +15,6 @@ A modern, responsive portfolio website built with React and Vite. This project s
 
 ---
 
-## 📸 Preview
-
-![Homepage Screenshot](./public/myImage.jpg)
-
----
-
 ## 🛠️ Tech Stack
 
 - [React](https://reactjs.org/)
